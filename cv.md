@@ -26,3 +26,8 @@ function multiply(a, b){
     * Technology and Organization of Construction", qualification - building engineer (2008-2013)
     * Master of Engineering (2013-2014)
     * Research Engineer (2014-2017)
+
+## Languages
+* Russian,  Belarusian - native
+* Englisch - Pre-Intermediate
+* German - Pre-Intermediate
