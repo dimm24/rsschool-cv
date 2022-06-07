@@ -1,7 +1,7 @@
 # Dzmitry Kuzmenka
 
 ## Contact Info:
-* tel. 80336250193
+* tel. +375336250193
 * email *onedimaz@gmail.com*
 * GitHub: [dimm24](https://github.com/dimm24)
 
