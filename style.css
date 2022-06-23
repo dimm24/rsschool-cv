@@ -1,18 +1,90 @@
+* {
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth; 
-  }
-.cv-content {
-    background-color: rgb(232, 240, 222);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(210, 210, 130);
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;        
+}
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff; 
+}
+.nav-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+.nav-link:hover::after {
+    opacity: 1;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+pre, code 
+{font-family: "Courier New", "Courier", monospace;
+color: blue;
+}
+  .main-div {
+    flex: ;
+}
+.main-aside {
+    flex: 2;
+}
+
+.nav-list {
+      font-size: 16px;
 }
 .mainicon {
     border-radius: 50%;
     width: 250px;
     height: 250px;
     box-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
-}
-* {
-    box-sizing: border-box;
-    margin: 5px;
 }
 body {
     font-family: 'Cardo', serif;
@@ -40,38 +112,7 @@ body {
 @media (max-width: 768px) {
     .section {
       width: 100%;
-    }
-  }
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.nav-list {
-    list-style: none;
-}
-.nav-link {
-    padding: 0 5px;
-    line-height: 5px;
-    color: #000;
-}
-.nav-link {
-    transition: .3s;
-}
-.pre {
-    padding: 0;
-    margin: 0;
-}
-body {
-    flex-direction: column;
-}
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(207, 202, 131);
 }
 header h1 {
     margin-left: 10px;
@@ -92,9 +133,5 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: rgb(207, 202, 131);
+    background-color: rgb(210, 210, 130);
 }
-
-
-
